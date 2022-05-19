@@ -18,7 +18,7 @@ jobs:
       - run:
           name: Assemble release build
           command: |
-            ./gradlew assembleRelease
+            ./gradlew build
       
     
     
