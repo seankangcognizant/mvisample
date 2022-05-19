@@ -18,6 +18,7 @@ jobs:
       - run:
           name: Assemble release build
           command: |
+            pwd
             ./gradlew build
       
     
