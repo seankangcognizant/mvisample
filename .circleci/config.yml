@@ -40,4 +40,4 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-      - androidbuild
+      - android-build
