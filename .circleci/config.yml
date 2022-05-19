@@ -7,9 +7,6 @@ version: 2.1
 jobs:
   android-build:
     # build the release build of the app
-    executor:
-      name: android/android-machine
-      resource-class: xlarge
     steps:
       - checkout
       - run:
