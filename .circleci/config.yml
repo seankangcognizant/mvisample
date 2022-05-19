@@ -19,6 +19,7 @@ jobs:
           name: Assemble release build
           command: |
             pwd
+            ls -la
             ./gradlew build
       
     
